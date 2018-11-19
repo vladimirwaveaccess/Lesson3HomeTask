@@ -3,7 +3,7 @@ package com.company;
 class Task1 {
     static void tablePrint() {
 
-        System.out.println("\nType transformation table\n");
+        System.out.println("\nType transformation table (The transformation takes place by columns)\n");
         System.out.println("       |   byte   |   short   |   char   |   int   |   long   |   float   |   double   |   boolean");
         System.out.println("_______|__________|___________|__________|_________|__________|___________|____________|___________");
         System.out.println("byte   |    т     |     я     |     я    |    я    |    я     |     я     |     я      |     х     ");
