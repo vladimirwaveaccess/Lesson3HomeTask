@@ -1,225 +1,292 @@
 package com.company;
 
 class Task2 {
+
+    static void outputResultOfTransformation() {
+
+        System.out.println();
+        System.out.println("Transformation Byte type to different types, 78 value:");
+        System.out.printf("The value of short is %d\n", transformationByteToShort((byte) 78));
+        System.out.printf("The value of char is %s\n", transformationByteToChar((byte) 78));
+        System.out.printf("The value of integer is %d\n", transformationByteToInt((byte) 78));
+        System.out.printf("The value of long is %d\n", transformationByteToLong((byte) 78));
+        System.out.printf("The value of float is %f\n", transformationByteToFloat((byte) 78));
+        System.out.printf("The value of double is %f\n", transformationByteToDouble((byte) 78));
+
+        System.out.println();
+        System.out.println("Transformation Short type to different types, 70 value:");
+        System.out.printf("The value of byte is %d\n", transformationShortToByte((short) 70));
+        System.out.printf("The value of char is %s\n", transformationShortToChar((short) 70));
+        System.out.printf("The value of integer is %d\n", transformationShortToInt((short) 70));
+        System.out.printf("The value of long is %d\n", transformationShortToLong((short) 70));
+        System.out.printf("The value of float is %f\n", transformationShortToFloat((short) 70));
+        System.out.printf("The value of double is %f\n", transformationShortToDouble((short) 70));
+
+        System.out.println();
+        System.out.println("Transformation Char type to different types, 'a' value:");
+        System.out.printf("The value of byte is %d\n", transformationCharToByte('a'));
+        System.out.printf("The value of short is %d\n", transformationCharToShort('a'));
+        System.out.printf("The value of integer is %d\n", transformationCharToInt('a'));
+        System.out.printf("The value of long is %d\n", transformationCharToLong('a'));
+        System.out.printf("The value of float is %f\n", transformationCharToFloat('a'));
+        System.out.printf("The value of double is %f\n", transformationCharToDouble('a'));
+
+        System.out.println();
+        System.out.println("Transformation Integer type to different types, 80 value:");
+        System.out.printf("The value of byte is %d\n", transformationIntToByte(80));
+        System.out.printf("The value of short is %d\n", transformationIntToShort(80));
+        System.out.printf("The value of char is %s\n", transformationIntToChar(80));
+        System.out.printf("The value of long is %d\n", transformationIntToLong(80));
+        System.out.printf("The value of float is %f\n", transformationIntToFloat(80));
+        System.out.printf("The value of double is %f\n", transformationIntToDouble(80));
+
+        System.out.println();
+        System.out.println("Transformation Long type to different types, 85 value:");
+        System.out.printf("The value of byte is %d\n", transformationLongToByte((long) 85));
+        System.out.printf("The value of short is %d\n", transformationLongToShort((long) 85));
+        System.out.printf("The value of char is %s\n", transformationLongToChar((long) 85));
+        System.out.printf("The value of integer is %d\n", transformationLongToInt((long) 85));
+        System.out.printf("The value of float is %f\n", transformationLongToFloat((long) 85));
+        System.out.printf("The value of double is %f\n", transformationLongToDouble((long) 85));
+
+        System.out.println();
+        System.out.println("Transformation Float type to different types, 90.8 value:");
+        System.out.printf("The value of byte is %d\n", transformationFloatToByte( 90.8f));
+        System.out.printf("The value of short is %d\n", transformationFloatToShort(90.8f));
+        System.out.printf("The value of char is %s\n", transformationFloatToChar(90.8f));
+        System.out.printf("The value of integer is %d\n", transformationFloatToInt(90.8f));
+        System.out.printf("The value of long is %d\n", transformationFloatToLong(90.8f));
+        System.out.printf("The value of double is %f\n", transformationFloatToDouble(90.8f));
+
+        System.out.println();
+        System.out.println("Transformation Double type to different types, 75.5 value:");
+        System.out.printf("The value of byte is %d\n", transformationDoubleToByte( 75.5));
+        System.out.printf("The value of short is %d\n", transformationDoubleToShort(75.5));
+        System.out.printf("The value of char is %s\n", transformationDoubleToChar(75.5));
+        System.out.printf("The value of integer is %d\n", transformationDoubleToInt(75.5));
+        System.out.printf("The value of long is %d\n", transformationDoubleToLong(75.5));
+        System.out.printf("The value of float is %f\n", transformationDoubleToFloat(75.5));
+    }
+
     // -------------------------------------- START: Transformation from byte ----------------------------------------------
-    static short transformationByteToShort(byte x) {
+    private static short transformationByteToShort(byte x) {
         short rez = x;
         return rez;
     }
 
-    static char transformationByteToChar(byte x) {
+    private static char transformationByteToChar(byte x) {
         char rez = (char) x;
         return rez;
     }
 
-    static int transformationByteToInt(byte x) {
+    private static int transformationByteToInt(byte x) {
         int rez =  x;
         return rez;
     }
 
-    static long transformationByteToLong(byte x) {
+    private static long transformationByteToLong(byte x) {
         long rez =  x;
         return rez;
     }
 
-    static float transformationByteToFloat(byte x) {
+    private static float transformationByteToFloat(byte x) {
         float rez =  x;
         return rez;
     }
 
-    static double transformationByteToDouble(byte x) {
+    private static double transformationByteToDouble(byte x) {
         double rez =  x;
         return rez;
     }
 // --------------------------------------- END: Transformation from byte -----------------------------------------------
 
 // ------------------------------------- START: Transformation from short ----------------------------------------------
-    static byte transformationShortToByte(short x) {
+    private static byte transformationShortToByte(short x) {
         byte rez = (byte) x;
         return rez;
     }
 
-    static char transformationShortToChar(short x) {
+    private static char transformationShortToChar(short x) {
         char rez = (char) x;
         return rez;
     }
 
-    static int transformationShortToInt(short x) {
+    private static int transformationShortToInt(short x) {
         int rez = x;
         return rez;
     }
 
-    static long transformationShortToLong(short x) {
+    private static long transformationShortToLong(short x) {
         long rez = x;
         return rez;
     }
 
-    static float transformationShortToFloat(short x) {
+    private static float transformationShortToFloat(short x) {
         float rez = x;
         return rez;
     }
 
-    static double transformationShortToDouble(short x) {
+    private static double transformationShortToDouble(short x) {
         double rez = x;
         return rez;
     }
 // -------------------------------------- END: Transformation from short -----------------------------------------------
 
 // -------------------------------------- START: Transformation from char ----------------------------------------------
-    static byte transformationCharToByte(char x) {
+    private static byte transformationCharToByte(char x) {
         byte rez = (byte) x;
         return rez;
     }
 
-    static short transformationCharToShort(char x) {
+    private static short transformationCharToShort(char x) {
         short rez = (short) x;
         return rez;
     }
 
-    static int transformationCharToInt(char x) {
+    private static int transformationCharToInt(char x) {
         int rez = x;
         return rez;
     }
 
-    static long transformationCharToLong(char x) {
+    private static long transformationCharToLong(char x) {
         long rez = x;
         return rez;
     }
 
-    static float transformationCharToFloat(char x) {
+    private static float transformationCharToFloat(char x) {
         float rez = x;
         return rez;
     }
 
-    static double transformationCharToDouble(char x) {
+    private static double transformationCharToDouble(char x) {
         double rez = x;
         return rez;
     }
 // --------------------------------------- END: Transformation from char -----------------------------------------------
 
 // --------------------------------------- START: Transformation from int ----------------------------------------------
-    static byte transformationIntToByte(int x) {
+    private static byte transformationIntToByte(int x) {
         byte rez = (byte) x;
         return rez;
     }
 
-    static short transformationIntToShort(int x) {
+    private static short transformationIntToShort(int x) {
         short rez = (short) x;
         return rez;
     }
 
-    static char transformationIntToChar(int x) {
+    private static char transformationIntToChar(int x) {
         char rez = (char) x;
         return rez;
     }
 
-    static long transformationIntToLong(int x) {
+    private static long transformationIntToLong(int x) {
         long rez = x;
         return rez;
     }
 
-    static float transformationIntToFloat(int x) {
+    private static float transformationIntToFloat(int x) {
         float rez = x;
         return rez;
     }
 
-    static double transformationIntToDouble(int x) {
+    private static double transformationIntToDouble(int x) {
         double rez = x;
         return rez;
     }
 // ---------------------------------------- END: Transformation from int -----------------------------------------------
 
 // -------------------------------------- START: Transformation from long ----------------------------------------------
-    static byte transformationLongToByte(long x) {
+    private static byte transformationLongToByte(long x) {
         byte rez = (byte) x;
         return rez;
     }
 
-    static short transformationLongToShort(long x) {
+    private static short transformationLongToShort(long x) {
         short rez = (short) x;
         return rez;
     }
 
-    static char transformationLongToChar(long x) {
+    private static char transformationLongToChar(long x) {
         char rez = (char) x;
         return rez;
     }
 
-    static int transformationLongToInt(long x) {
+    private static int transformationLongToInt(long x) {
         int rez = (int) x;
         return rez;
     }
 
-    static float transformationLongToFloat(long x) {
+    private static float transformationLongToFloat(long x) {
         float rez = x;
         return rez;
     }
 
-    static double transformationLongToDouble(long x) {
+    private static double transformationLongToDouble(long x) {
         double rez = x;
         return rez;
     }
 // --------------------------------------- END: Transformation from long -----------------------------------------------
 
 // -------------------------------------- START: Transformation from float ---------------------------------------------
-    static byte transformationFloatToByte(float x) {
+    private static byte transformationFloatToByte(float x) {
         byte rez = (byte) x;
         return rez;
     }
 
-    static short transformationFloatToShort(float x) {
+    private static short transformationFloatToShort(float x) {
         short rez = (short) x;
         return rez;
     }
 
-    static char transformationFloatToChar(float x) {
+    private static char transformationFloatToChar(float x) {
         char rez = (char) x;
         return rez;
     }
 
-    static int transformationFloatToInt(float x) {
+    private static int transformationFloatToInt(float x) {
         int rez = (int) x;
         return rez;
     }
 
-    static long transformationFloatToLong(float x) {
+    private static long transformationFloatToLong(float x) {
         long rez = (long) x;
         return rez;
     }
 
-    static double transformationFloatToDouble(float x) {
+    private static double transformationFloatToDouble(float x) {
         double rez = x;
         return rez;
     }
 // --------------------------------------- END: Transformation from float ----------------------------------------------
 
 // ------------------------------------- START: Transformation from double ---------------------------------------------
-    static byte transformationDoubleToByte(double x) {
+    private static byte transformationDoubleToByte(double x) {
         byte rez = (byte) x;
         return rez;
     }
 
-    static short transformationDoubleToShort(double x) {
+    private static short transformationDoubleToShort(double x) {
         short rez = (short) x;
         return rez;
     }
 
-    static char transformationDoubleToChar(double x) {
+    private static char transformationDoubleToChar(double x) {
         char rez = (char) x;
         return rez;
     }
 
-    static int transformationDoubleToInt(double x) {
+    private static int transformationDoubleToInt(double x) {
         int rez = (int) x;
         return rez;
     }
 
-    static long transformationDoubleToLong(double x) {
+    private static long transformationDoubleToLong(double x) {
         long rez = (long) x;
         return rez;
     }
 
-    static float transformationDoubleToFloat(double x) {
+    private static float transformationDoubleToFloat(double x) {
         float rez = (float) x;
         return rez;
     }
